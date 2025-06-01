@@ -39,8 +39,7 @@ streamlit
 selenium
 langchain
 pydantic
-# plus any other dependencies you have
-```
+
 
 ---
 
