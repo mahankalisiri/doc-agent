@@ -33,7 +33,7 @@ def main():
     with open("revised.txt", "w", encoding="utf-8") as f:
         f.write(revised)
 
-    print("✅ Done. Output saved to revised.txt")
+    print(" Done. Output saved to revised.txt")
 
 if __name__ == "__main__":
     main()
