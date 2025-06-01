@@ -1,7 +1,12 @@
+import os
+import time
 import streamlit as st
-from scraper import get_page_content  # your scraper.py function
-from analyzer import analyze_document  # your analysis function
-from reviser import revise_document    # your revision function
+from scraper import get_page_content
+from analyzer import analyze_document
+from reviser import revise_document
+
+# Ensure output directory exists
+os.makedirs("output", exist_ok=True)
 
 st.set_page_config(page_title="Doc Agent", layout="wide")
 
@@ -14,7 +19,6 @@ url = st.text_input(
 )
 
 def is_valid_url(url: str) -> bool:
-    # Basic validation to check if URL starts with http or https
     return url.startswith("http://") or url.startswith("https://")
 
 if url:
@@ -33,29 +37,53 @@ if url:
 
         st.subheader("🧠 Document Analysis")
 
+        # Timestamped filename
+        timestamp = time.strftime("%Y%m%d_%H%M%S")
+        analysis_filename = f"output/analysis_{timestamp}.txt"
+        revised_filename = f"output/revised_{timestamp}.txt"
+
+        # Format analysis content
+        full_analysis = []
         for key in ["readability", "structure", "completeness", "style_guidelines"]:
             section = analysis.get(key, {})
-            st.markdown(f"### {key.replace('_', ' ').title()}")
-            st.markdown(f"**Score:** `{section.get('score', 'N/A')}`")
+            full_analysis.append(f"### {key.replace('_', ' ').title()}")
+            full_analysis.append(f"Score: {section.get('score', 'N/A')}\n")
 
-            st.markdown("**Issues Found:**")
+            full_analysis.append("Issues Found:")
             if section.get("issues"):
                 for issue in section["issues"]:
-                    st.write(f"- {issue}")
+                    full_analysis.append(f"- {issue}")
             else:
-                st.write("_No issues found._")
+                full_analysis.append("No issues found.")
 
-            st.markdown("**Improvement Suggestions:**")
+            full_analysis.append("Improvement Suggestions:")
             if section.get("suggestions"):
                 for suggestion in section["suggestions"]:
-                    st.success(f"✅ {suggestion}")
+                    full_analysis.append(f"✅ {suggestion}")
             else:
-                st.write("_No suggestions available._")
+                full_analysis.append("No suggestions available.")
+            full_analysis.append("\n")
+
+        full_analysis_str = "\n".join(full_analysis)
+
+        # Save analysis to file
+        with open(analysis_filename, "w", encoding="utf-8") as f:
+            f.write(full_analysis_str)
+
+        st.info(f"📁 Analysis saved to `{analysis_filename}`")
+
+        # Show on UI
+        st.text_area("🧠 Full Analysis", full_analysis_str, height=400)
 
         if st.button("🪄 Generate Revised Version"):
             with st.spinner("Applying suggestions..."):
                 revised = revise_document(raw_text, analysis)
 
+            # Save revised doc to file
+            with open(revised_filename, "w", encoding="utf-8") as f:
+                f.write(revised)
+
             st.subheader("📄 Revised Documentation")
             st.text_area("Revised Content", revised, height=500)
-            st.download_button("📥 Download Revised Text", revised, file_name="revised.txt")
+            st.download_button("📥 Download Revised Text", revised, file_name=os.path.basename(revised_filename))
+            st.success(f"📁 Revised version saved to `{revised_filename}`")

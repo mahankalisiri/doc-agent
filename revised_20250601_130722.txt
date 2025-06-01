@@ -1,0 +1,118 @@
+```markdown
+# MoEngage Channels: User Guide
+
+This guide provides an overview of the communication channels available within MoEngage, enabling you to effectively engage your audience across various touchpoints.
+
+## Table of Contents
+
+*   [Getting Started with MoEngage](#getting-started-with-moengage)
+*   [Account Management](#account-management)
+*   [Data Management](#data-management)
+    *   [Analyze](#analyze)
+    *   [Segment](#segment)
+*   [Campaigns and Channels](#campaigns-and-channels)
+    *   [Campaign Management](#campaign-management)
+    *   [Flows - Cross-Channel Messaging](#flows---cross-channel-messaging)
+*   [Personalization](#personalization)
+    *   [Recommendations](#recommendations)
+    *   [Web Personalization](#web-personalization)
+*   [Intelligence](#intelligence)
+    *   [Alert Management](#alert-management)
+*   [Use Cases](#use-cases)
+*   [Accessibility](#accessibility)
+*   [Resources](#resources)
+*   [Release Notes](#release-notes)
+*   [Contact Support](#contact-support)
+
+## Getting Started with MoEngage
+
+[Link to Getting Started Documentation]
+
+## Account Management
+
+[Link to Account Management Documentation]
+
+## Data Management
+
+[Link to Data Management Documentation]
+
+### Analyze
+
+[Link to Analyze Documentation]
+
+### Segment
+
+[Link to Segment Documentation]
+
+## Campaigns and Channels
+
+### Introduction to MoEngage Channels
+
+MoEngage empowers you to connect with users through various channels, including push notifications, email, SMS, in-app messages, and more. These channels represent the different mediums you can use to deliver your message to the right user at the right time. By leveraging multiple channels, you can create a cohesive and impactful customer engagement strategy.
+
+### Channels Supported in MoEngage
+
+The following channels are supported in MoEngage, enabling you to create comprehensive and personalized user experiences:
+
+| Channel Name              | Description                                                                                                                                                                                                                                                           | Use Cases                                                                                                                                                                                                                                                                                                                           |
+| ------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Mobile Push**           | Send push notifications to users who have your mobile app (Android or iOS) installed.                                                                                                                                                                                | *   Promote new features. <br> *   Send reminders for incomplete actions. <br> *   Alert users about important updates or events. <br> *   Personalize offers and promotions.                                                                                                                                         |
+| **Web Push**              | Deliver push notifications to users browsing your desktop or mobile website on supported browsers.                                                                                                                                                                    | *   Re-engage website visitors. <br> *   Notify users of new content or products. <br> *   Recover abandoned carts. <br> *   Drive traffic back to your website.                                                                                                                                                           |
+| **Email**                 | Send personalized emails to registered users.                                                                                                                                                                                                                        | *   Welcome new users. <br> *   Send transactional emails (e.g., order confirmations, password resets). <br> *   Promote products and services. <br> *   Share newsletters and announcements. <br> *   Nurture leads.                                                                                                                |
+| **SMS**                   | Send SMS messages to registered users.                                                                                                                                                                                                                               | *   Send urgent notifications (e.g., appointment reminders, delivery updates). <br> *   Verify user accounts. <br> *   Promote time-sensitive offers.                                                                                                                                                                            |
+| **In-App**                | Display messages within your mobile app while users are actively using it.                                                                                                                                                                                            | *   Onboard new users. <br> *   Announce new features. <br> *   Provide contextual help. <br> *   Gather feedback. <br> *   Drive feature discovery.                                                                                                                                                                         |
+| **On-Site**               | Display pop-up messages, surveys, or lead generation forms on your desktop or mobile website.                                                                                                                                                                      | *   Capture leads. <br> *   Collect user feedback. <br> *   Promote special offers. <br> *   Announce important updates. <br> *   Guide users through your website.                                                                                                                                                     |
+| **Cards**                 | Display messages inside a feed embedded within your app, creating a dynamic and engaging experience.                                                                                                                                                                | *   Promote content. <br> *   Announce new products. <br> *   Share updates. <br> *   Drive engagement with specific features.                                                                                                                                                                                                  |
+| **WhatsApp**              | Send templated WhatsApp messages to registered users who have opted-in to receive WhatsApp messages from your business.                                                                                                                                              | *   Send order updates. <br> *   Provide customer support. <br> *   Share promotional offers. <br> *   Send appointment reminders.                                                                                                                                                                                              |
+| **Facebook Audience**     | Retarget users on Facebook by syncing data to Facebook Ad Audiences.                                                                                                                                                                                                 | *   Reach users who have visited your website or app. <br> *   Retarget users who have abandoned their carts. <br> *   Promote products and services to specific demographics.                                                                                                                                            |
+| **Google Ads Audience**   | Retarget users on the Google Display Network by syncing data to Google Ads Audiences.                                                                                                                                                                                  | *   Reach users who have visited your website or app. <br> *   Retarget users who have shown interest in your products or services. <br> *   Promote brand awareness.                                                                                                                                                  |
+| **Connectors**            | Integrate and send data to any other channel, partner, or third-party tool. This allows you to forward data or trigger communication in external systems.  Examples: Sending data to a CRM, triggering an event in a marketing automation platform, or updating a user profile in a data warehouse.                                                                                                                                                                                                                                                                                          | *   Integrate with your existing marketing stack. <br> *   Automate workflows. <br> *   Personalize experiences across multiple platforms. <br> *   Enhance data analysis.                                                                                                                               |
+
+### Campaign Management
+
+[Link to Campaign Management Documentation]
+
+### Flows - Cross-Channel Messaging
+
+[Link to Flows Documentation]
+
+## Personalization
+
+[Link to Personalization Documentation]
+
+### Recommendations
+
+[Link to Recommendations Documentation]
+
+### Web Personalization
+
+[Link to Web Personalization Documentation]
+
+## Intelligence
+
+[Link to Intelligence Documentation]
+
+### Alert Management
+
+[Link to Alert Management Documentation]
+
+## Use Cases
+
+[Link to Use Cases Documentation]
+
+## Accessibility
+
+[Link to Accessibility Documentation]
+
+## Resources
+
+[Link to Resources Page]
+
+## Release Notes
+
+[Link to Release Notes]
+
+## Contact Support
+
+[Link to Contact Support Page]
+```
