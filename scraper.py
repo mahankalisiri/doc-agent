@@ -8,7 +8,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException
 
 def get_page_content(url: str) -> str:
-    # ... your existing get_page_content function unchanged ...
+    
     options = Options()
     options.add_argument('--headless')
     options.add_argument('--disable-gpu')
