@@ -1,22 +1,21 @@
 import os
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_core.output_parsers import JsonOutputParser
-from models import DocumentationAnalysis  # your Pydantic model
-from prompts import analysis_prompt      # your loaded PromptTemplate
+from models import DocumentationAnalysis 
+from prompts import analysis_prompt     
 
-# Initialize Gemini LLM
 llm = ChatGoogleGenerativeAI(
     model="gemini-2.0-flash",
-    google_api_key=os.getenv("GEMINI_API")  # expects .env with GEMINI_API=...
+    google_api_key=os.getenv("GEMINI_API")  
 )
 
-# Output parser to enforce structure
+
 parser = JsonOutputParser(pydantic_object=DocumentationAnalysis)
 
-# Chain: prompt -> LLM -> structured output
+
 chain = analysis_prompt | llm | parser
 
-# ✅ THIS is what app.py expects
+
 def analyze_document(content: str, url: str = "N/A") -> dict:
     """
     Analyze the given documentation content using Gemini LLM.
