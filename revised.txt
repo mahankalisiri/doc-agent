@@ -1,0 +1,30 @@
+```markdown
+# Engage Your Audience with MoEngage Channels
+
+MoEngage is a comprehensive customer engagement platform that empowers you to connect with your audience in meaningful ways across multiple touchpoints.  This document provides an overview of the various channels MoEngage supports, enabling you to craft effective and personalized experiences for your users.
+
+## Channels in MoEngage
+
+With MoEngage, you can reach your users through a variety of channels, ensuring your message is delivered in the most impactful way.  Each channel offers unique capabilities and is suited for different types of communication.
+
+The following channels are supported in MoEngage:
+
+| Channel Name          | Channel Description                                                                                                                                                                                                                                                        |
+|-----------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Mobile Push**       | Send push notifications to users who have your mobile app (Android or iOS) installed. Use mobile push for timely updates, promotional offers, and personalized reminders.  *Example Use Case:*  Reminding users about abandoned shopping carts or notifying them of new features. |
+| **Web Push**          | Deliver push notifications to users browsing your desktop or mobile website on supported browsers. Web push is ideal for re-engaging website visitors and driving them back to your site. *Example Use Case:*  Announcing a flash sale or prompting users to subscribe to a newsletter. |
+| **Email**             | Communicate with registered users via email.  Email is perfect for newsletters, personalized promotions, transactional messages, and more.  *Example Use Case:* Sending welcome emails, order confirmations, or personalized product recommendations. |
+| **SMS & RCS**          | Send text messages (SMS) or Rich Communication Services (RCS) messages to registered users. SMS and RCS are great for time-sensitive alerts, appointment reminders, and quick updates. *Example Use Case:*  Sending delivery updates or two-factor authentication codes. |
+| **In-App Message**    | Display messages within your mobile app while users are actively using it. In-app messages are effective for onboarding, feature discovery, and providing contextual help. *Example Use Case:*  Highlighting a new feature or prompting users to rate the app. |
+| **On-site Message**   | Display pop-up messages, surveys, or lead capture forms on your desktop or mobile website while users are browsing. On-site messages are useful for lead generation, gathering feedback, and promoting special offers. *Example Use Case:*  Offering a discount code to new visitors or collecting email addresses for a newsletter. |
+| **Cards**             | Display rich media messages within a dedicated feed inside your app. Cards can be used to showcase content, promote products, and provide personalized recommendations. *Example Use Case:*  Displaying personalized news articles or highlighting trending products. |
+| **WhatsApp**          | Send templated WhatsApp messages to registered users who have opted in to receive messages via WhatsApp. WhatsApp is ideal for conversational marketing, customer support, and delivering personalized updates. *Example Use Case:*  Providing order updates or answering customer inquiries. |
+| **Facebook Audience** | Retarget users on Facebook by syncing data to Facebook Ad Audiences. This allows you to create targeted ad campaigns based on user behavior and demographics. *Example Use Case:*  Reaching users who abandoned their shopping cart on your website with targeted Facebook ads. |
+| **Google Ads Audience**| Retarget users on the Google Display Network by syncing data to Google Ads Audiences. This enables you to reach users with relevant ads across a wide range of websites and apps. *Example Use Case:* Showing ads for products that users have previously viewed on your website. |
+| **Connectors**        | Integrate and send data to any other channel, partner, or third-party tool. Connectors allow you to extend the capabilities of MoEngage and integrate with your existing marketing stack. *Example Use Case:*  Sending data to a CRM or triggering events in a marketing automation platform. |
+| **Web Personalization**| Personalize the experience of users while they are on your website. This can include customizing content, offers, and calls to action based on user behavior and preferences. *Example Use Case:* Displaying personalized product recommendations or tailoring website content based on user demographics. |
+
+## Next Steps
+
+Ready to dive deeper?  Explore the different [Delivery Types](link-to-delivery-types-documentation) available within MoEngage to optimize your channel strategies and ensure your messages are delivered effectively.
+```

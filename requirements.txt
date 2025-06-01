@@ -1,0 +1,6 @@
+langchain
+langchain-google-genai
+selenium
+python-dotenv
+pydantic
+streamlit
