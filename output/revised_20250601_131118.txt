@@ -1,0 +1,161 @@
+```markdown
+# MoEngage Channels: A Comprehensive Guide
+
+This guide provides an overview of the various channels available in MoEngage for engaging your audience. MoEngage is a customer engagement platform that allows marketers and product owners to connect with their users across multiple touchpoints. This document describes each channel, outlining its purpose and capabilities.
+
+## Table of Contents
+
+1.  [Introduction to MoEngage Channels](#introduction-to-moengage-channels)
+2.  [Mobile Push Notifications](#mobile-push-notifications)
+3.  [Web Push Notifications](#web-push-notifications)
+4.  [Email](#email)
+5.  [SMS](#sms)
+6.  [In-App Messages](#in-app-messages)
+7.  [On-Site Messages](#on-site-messages)
+8.  [Cards](#cards)
+9.  [WhatsApp](#whatsapp)
+10. [Facebook Audience](#facebook-audience)
+11. [Google Ads Audience](#google-ads-audience)
+12. [Connectors](#connectors)
+13. [Web Personalization](#web-personalization)
+14. [Next Steps](#next-steps)
+
+## 1. Introduction to MoEngage Channels {#introduction-to-moengage-channels}
+
+MoEngage supports a variety of channels to help you reach your users effectively. A channel is a medium through which you can deliver messages to your audience. By utilizing the right channels, you can create personalized and engaging experiences that drive conversions and build customer loyalty. The following sections detail each channel available in MoEngage.
+
+## 2. Mobile Push Notifications {#mobile-push-notifications}
+
+**Description:** Send push notifications to users who have your mobile app (Android or iOS) installed.
+
+**Use Cases:**
+
+*   Promote new features or products.
+*   Send reminders about upcoming events or deadlines.
+*   Re-engage inactive users.
+*   Deliver personalized offers based on user behavior.
+
+## 3. Web Push Notifications {#web-push-notifications}
+
+**Description:** Send push notifications to users who have visited your desktop or mobile website on supported browsers.
+
+**Use Cases:**
+
+*   Alert users about new content or promotions.
+*   Recover abandoned carts.
+*   Provide timely updates and information.
+*   Drive traffic back to your website.
+
+## 4. Email {#email}
+
+**Description:** Send emails to registered users.
+
+**Use Cases:**
+
+*   Welcome new users.
+*   Send newsletters and updates.
+*   Promote products and services.
+*   Provide customer support.
+*   Send transactional emails (e.g., order confirmations, password resets).
+
+## 5. SMS {#sms}
+
+**Description:** Send SMS messages to registered users.
+
+**Use Cases:**
+
+*   Send appointment reminders.
+*   Deliver urgent notifications.
+*   Provide two-factor authentication codes.
+*   Promote time-sensitive offers.
+
+## 6. In-App Messages {#in-app-messages}
+
+**Description:** Display messages within your mobile app while users are actively using it.
+
+**Use Cases:**
+
+*   Onboard new users.
+*   Announce new features.
+*   Collect feedback.
+*   Promote in-app purchases.
+*   Provide contextual help.
+
+## 7. On-Site Messages {#on-site-messages}
+
+**Description:** Display pop-up messages, surveys, or lead generation forms on your desktop or mobile website.
+
+**Use Cases:**
+
+*   Capture leads.
+*   Collect feedback.
+*   Promote special offers.
+*   Provide customer support.
+*   Announce important updates.
+
+## 8. Cards {#cards}
+
+**Description:** Display messages inside a feed embedded within your mobile app.
+
+**Use Cases:**
+
+*   Show personalized content recommendations.
+*   Display news and updates.
+*   Promote products and services.
+*   Engage users with interactive content.
+
+## 9. WhatsApp {#whatsapp}
+
+**Description:** Send templated WhatsApp messages to registered users who have opted in to receive WhatsApp messages.
+
+**Use Cases:**
+
+*   Send order updates.
+*   Provide customer support.
+*   Promote products and services.
+*   Send personalized offers.
+
+## 10. Facebook Audience {#facebook-audience}
+
+**Description:** Retarget users on Facebook by syncing data to Facebook Ad Audiences.
+
+**Use Cases:**
+
+*   Re-engage users who have visited your website or app.
+*   Target users with specific interests or demographics.
+*   Promote products and services to a relevant audience.
+
+## 11. Google Ads Audience {#google-ads-audience}
+
+**Description:** Retarget users on the Google Display Network by syncing data to Google Ads Audiences.
+
+**Use Cases:**
+
+*   Re-engage users who have visited your website or app.
+*   Target users with specific interests or demographics.
+*   Promote products and services to a relevant audience.
+
+## 12. Connectors {#connectors}
+
+**Description:** Integrate and send data to any other channel/partner or 3rd party tool to which you wish to forward data or trigger communication.
+
+**Use Cases:**
+
+*   Send data to your CRM.
+*   Trigger events in other marketing automation platforms.
+*   Integrate with your customer support system.
+
+## 13. Web Personalization {#web-personalization}
+
+**Description:** Personalize the experience of users while they are on your website.
+
+**Use Cases:**
+
+*   Display personalized content based on user behavior.
+*   Recommend products based on browsing history.
+*   Show personalized offers based on user demographics.
+
+## 14. Next Steps {#next-steps}
+
+This guide provides a high-level overview of the channels available in MoEngage. For detailed information on setting up and using each channel, please refer to the MoEngage documentation or contact MoEngage Support.
+```
