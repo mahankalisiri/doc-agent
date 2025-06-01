@@ -5,7 +5,7 @@ from scraper import get_page_content
 from analyzer import analyze_document
 from reviser import revise_document
 
-# Ensure output directory exists
+
 os.makedirs("output", exist_ok=True)
 
 st.set_page_config(page_title="Doc Agent", layout="wide")
@@ -33,16 +33,16 @@ if url:
                 st.error(f"❌ Failed to fetch or analyze the URL: {e}")
                 st.stop()
 
-        st.success("✅ Analysis complete!")
+        st.success(" Analysis complete!")
 
-        st.subheader("🧠 Document Analysis")
+        st.subheader("Document Analysis")
 
-        # Timestamped filename
+
         timestamp = time.strftime("%Y%m%d_%H%M%S")
         analysis_filename = f"output/analysis_{timestamp}.txt"
         revised_filename = f"output/revised_{timestamp}.txt"
 
-        # Format analysis content
+ 
         full_analysis = []
         for key in ["readability", "structure", "completeness", "style_guidelines"]:
             section = analysis.get(key, {})
@@ -59,23 +59,23 @@ if url:
             full_analysis.append("Improvement Suggestions:")
             if section.get("suggestions"):
                 for suggestion in section["suggestions"]:
-                    full_analysis.append(f"✅ {suggestion}")
+                    full_analysis.append(f" {suggestion}")
             else:
                 full_analysis.append("No suggestions available.")
             full_analysis.append("\n")
 
         full_analysis_str = "\n".join(full_analysis)
 
-        # Save analysis to file
+
         with open(analysis_filename, "w", encoding="utf-8") as f:
             f.write(full_analysis_str)
 
-        st.info(f"📁 Analysis saved to `{analysis_filename}`")
+        st.info(f"Analysis saved to `{analysis_filename}`")
 
-        # Show on UI
-        st.text_area("🧠 Full Analysis", full_analysis_str, height=400)
+  
+        st.text_area(" Full Analysis", full_analysis_str, height=400)
 
-        if st.button("🪄 Generate Revised Version"):
+        if st.button("Generate Revised Version"):
             with st.spinner("Applying suggestions..."):
                 revised = revise_document(raw_text, analysis)
 
@@ -83,7 +83,7 @@ if url:
             with open(revised_filename, "w", encoding="utf-8") as f:
                 f.write(revised)
 
-            st.subheader("📄 Revised Documentation")
+            st.subheader(" Revised Documentation")
             st.text_area("Revised Content", revised, height=500)
-            st.download_button("📥 Download Revised Text", revised, file_name=os.path.basename(revised_filename))
-            st.success(f"📁 Revised version saved to `{revised_filename}`")
+            st.download_button(" Download Revised Text", revised, file_name=os.path.basename(revised_filename))
+            st.success(f" Revised version saved to `{revised_filename}`")
